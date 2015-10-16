@@ -21,8 +21,16 @@
 
 import rasterio
 
-input_file = "/data/example_data"
+input_file = "/home/cayetano/Dropbox/documentos/python/GIS/workshop_RasterGIS_data/data/raster_out/example_data"
 out_tif_file = "/tmp/out.tif"
+
+with rasterio.drivers():
+    with rasterio.open(input_file) as src:
+        print(src.width, src.height)
+        print(src.crs)
+        print(src.affine)
+        print(src.count)
+        print(src.indexes)
 
 with rasterio.drivers():
     rasterio.copy(input_file, out_tif_file, driver='GTiff')
