@@ -7,14 +7,19 @@
 1.- Introduction.
 
 2.- Reading and writing raster data: GDAL and Rasterio.
+
     - [Exercise 1. Reading a raster with GDAL.](code/raster_workshop_gdal_read.ipynb)
+
     - [Exercise 2. Writing raster data with GDAL (Translating).](code/raster_workshop_gdal_write.ipynb)
+
     - [Exercise 3. Reading and writing raster data with Rasterio (Translating).](code/raster_workshop_rasterio.ipynb)
 
 3.- Georeferencing raster data: Rasterio.
+
     - [Exercise 4. Reprojecting raster data with Rasterio.](code/raster_workshop_rasterio_reproject.ipynb)
 
 4.- Map algebra: Rasterio + Numpy.
+
     - [Exercise 5. Map algebra with Rasterio and Numpy.](code/raster_workshop_mapalgebra.ipynb)
 
 #### PART II (coming soon)
@@ -28,6 +33,7 @@
 
 9.- Remote sensing and GIS...
 
+### References
 10.- Bibliography.
 
 ## About author
